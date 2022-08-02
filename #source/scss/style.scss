@@ -23,15 +23,20 @@
 
 		// .page__fon
 
+		&__fon{
+flex: 1 0 100%;
+		}
 
 
 		&__fon img{
 			position: relative;
-			flex: 1 0 100%;
+			flex: 1 1 100%;
 height: 100%;
 			width: 100%;
 		}
 }
+
+
 
 
 .head {
@@ -87,11 +92,12 @@ color: #4d4959;
 }
 
 
-// ---------------------CONTENT BLOCK 1-----------------
+// ---------------------CONTENT BLOCK 1 ABOUT-----------------
 
 
 .container {
-	position: relative;
+
+
 	margin: 0 250px;
 
 
@@ -146,6 +152,7 @@ color: #848789;
 					height: 1px;
 					background-color: rgba(53,55,56,0.2);
 				}
+
 			}
 
 
@@ -164,25 +171,29 @@ color: #353738;
 }
 
 
-//----------------------------------CONTENT Block 2--------------------------------------
+//----------------------------------CONTENT Block 2 VINTAGE OLIVA--------------------------------------
 
 .brands {
+	position: relative;
 
 &__image{
-	display: flex;
-	margin: -55px 0 0 -25px;
+	width: 100%;
 	img{
 		width: 100%;
 	}
-
-
-
+	&::before{
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 15px solid #ffffff;
+		margin: 0 0 0 300px;
+	}
 
 
 }
-
-
-
 
 
    &__row {
@@ -206,6 +217,7 @@ color: #353738;
 		}
 	}
 
+	// brands__triangle
 
 
 
@@ -247,18 +259,25 @@ align-items: center;
 		top: 0;
 		left: 0;
 		z-index: 1;
-		flex: 1 0 100%
-		img{
-
+		flex: 1 0 100%;
+		img {
+width: 100%;
 		}
 
 
 	}
 }
 
+//----------------------------------CONTENT Block 3 LA BORIOSA--------------------------------------
 
+.row {
 
+	// .row__boriosa
 
+	&__boriosa {
+		flex-direction: row-reverse;
+	}
+}
 
 
 
