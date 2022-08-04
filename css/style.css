@@ -209,9 +209,6 @@
   flex-direction: row-reverse;
 }
 
-.about__item {
-  display: flex;
-}
 .about__circle {
   width: 11px;
   height: 11px;
@@ -219,4 +216,37 @@
   border: 1px solid #c8c8c8;
   border-radius: 50%;
   margin: 0 0 68px 10px;
+}
+.about__item {
+  display: flex;
+}
+
+.shop {
+  position: relative;
+}
+.shop__row {
+  display: flex;
+}
+.shop__column {
+  flex: 0 1 33.333%;
+}
+.shop__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop__body_b {
+  height: 100%;
+  width: 100%;
+}
+.shop__item {
+  flex: 0 1 50%;
+}
+.shop__item img {
+  width: 100%;
+}
+.shop__item_b {
+  flex: 0 1 100%;
+}
+.shop__item img {
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
