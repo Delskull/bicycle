@@ -53,6 +53,7 @@ height: 100%;
 				align-items: center;
 			}
 			li{
+				list-style-type: none;
 				padding-left: 60px;
 				text-align: center;
 font-size: 13px;
@@ -463,7 +464,7 @@ padding-left: 30px;
 	width: 100%;
 	height: 66px;
 	border: 1px solid aqua;
-height: 69px;
+height: 63px;
 background-color: #ffffff;
 border: 1px solid #d3d7d9;
 font-size: 20px;
@@ -491,6 +492,7 @@ input[type="text"]::-webkit-input-placeholder {
 			height: 67px;
 			background-color: #64c29e;
 			color: #eaf7f2;
+			border: 0;
 font-size: 24px;
 line-height: 24px;
 color: #ffffff;
@@ -544,6 +546,7 @@ color: #848789;
 			p{
 				display: inline-block;
 				padding-right: 10px;
+				margin-left: -67px;
 			}
 			img{
 				margin-top: -10px;
