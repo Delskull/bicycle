@@ -1,1 +1,1 @@
-# bicycle
+http://Delskull.github.io/selfstudy/
