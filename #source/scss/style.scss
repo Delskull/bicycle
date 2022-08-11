@@ -110,6 +110,7 @@ color: #4d4959;
 		// .about__column
 
 		&__column {
+			height: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -205,9 +206,10 @@ color: #353738;
 
 &__image{
 	width: 100%;
-	margin: 88px 0 0px 0;
+	height: 100%;
 	img{
 		width: 100%;
+		height: 100%;
 	}
 	&::before{
 		content: "";
@@ -217,7 +219,7 @@ color: #353738;
 		border-left: 10px solid transparent;
 		border-right: 10px solid transparent;
 		border-top: 15px solid #ffffff;
-		margin: 0 0 0 303px;
+		margin-left: 16%;
 	}
 
 
@@ -349,6 +351,8 @@ position: relative;
 	&__body {
 		display: flex;
 		flex-wrap: wrap;
+		max-width: 100%;
+		height: 100%;
 		&_b{
 			height: 100%;
 			width: 100%;
@@ -399,8 +403,155 @@ color: #ffffff;
 
 
 
+//----------------------------------CONTENT Block 8 email SHOP--------------------------------------
 
 
+.email {
+
+
+
+	// .email__top
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	// .email__foot
+
+	&__foot {
+		margin-bottom: 110px;
+		margin-top: 35px;
+		display: flex;
+		form{
+			display: flex;
+			margin: 0 auto;
+		}
+	}
+}
+.top {
+
+	// .top__logo
+
+	&__logo {
+		margin-top: 108px;
+		text-align: center;
+	}
+
+	// .top__text
+
+	&__text {
+		margin: 0 auto;
+		margin-top: 36px;
+font-size: 24px;
+line-height: 34px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+	}
+}
+.foot {
+
+
+
+	// .foot__input
+
+	&__input {
+input{
+padding-left: 30px;
+	width: 100%;
+	height: 66px;
+	border: 1px solid aqua;
+height: 69px;
+background-color: #ffffff;
+border: 1px solid #d3d7d9;
+font-size: 20px;
+line-height: 24px;
+font-weight: 400;
+font-style: italic;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #dfdfdf;
+}
+
+}
+
+
+
+
+	// .foot__btn
+
+	&__btn {
+		display: flex;
+		text-align: center;
+		padding-left: 8px;
+		input{
+			width: 126px;
+			height: 67px;
+			background-color: #64c29e;
+			color: #eaf7f2;
+font-size: 24px;
+line-height: 24px;
+color: #ffffff;
+		}
+	}
+
+}
+
+
+//----------------------------------CONTENT Block 9 FOOTER--------------------------------------
+
+
+.footer {
+
+	// .footer__row
+
+	&__row {
+		display: flex;
+	}
+
+	// .footer__column
+
+	&__column {
+	text-align: center;
+		flex: 1 0 33.333%;
+		margin-bottom: 100px;
+		p{
+
+font-size: 13.9px;
+line-height: 17px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+		}
+		&_1{
+			text-align: left;
+			padding-left: 200px;
+			p:first-child{
+				font-size: 16px;
+				line-height: 17px;
+				font-weight: 700;
+				color: #848789;
+						}
+		}
+		&_2{
+			img{
+				padding-left: 10px;
+			}
+		}
+		&_3{
+			p{
+				display: inline-block;
+				padding-right: 10px;
+			}
+			img{
+				margin-top: -10px;
+			}
+		}
+
+	}
+}
 
 
 

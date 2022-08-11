@@ -79,6 +79,7 @@
   background-color: #f7f7f7;
 }
 .about__column {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,10 +152,11 @@
 }
 .brands__image {
   width: 100%;
-  margin: 88px 0 0px 0;
+  height: 100%;
 }
 .brands__image img {
   width: 100%;
+  height: 100%;
 }
 .brands__image::before {
   content: "";
@@ -164,7 +166,7 @@
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 15px solid #ffffff;
-  margin: 0 0 0 303px;
+  margin-left: 16%;
 }
 .brands__row {
   display: flex;
@@ -236,6 +238,8 @@
 .shop__body {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  height: 100%;
 }
 .shop__body_b {
   height: 100%;
@@ -270,4 +274,100 @@
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #ffffff;
+}
+
+.email__top {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.email__foot {
+  margin-bottom: 110px;
+  margin-top: 35px;
+  display: flex;
+}
+.email__foot form {
+  display: flex;
+  margin: 0 auto;
+}
+
+.top__logo {
+  margin-top: 108px;
+  text-align: center;
+}
+.top__text {
+  margin: 0 auto;
+  margin-top: 36px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+}
+
+.foot__input input {
+  padding-left: 30px;
+  width: 100%;
+  height: 66px;
+  border: 1px solid aqua;
+  height: 69px;
+  background-color: #ffffff;
+  border: 1px solid #d3d7d9;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+.foot__input input[type=text]::-webkit-input-placeholder {
+  color: #dfdfdf;
+}
+.foot__btn {
+  display: flex;
+  text-align: center;
+  padding-left: 8px;
+}
+.foot__btn input {
+  width: 126px;
+  height: 67px;
+  background-color: #64c29e;
+  color: #eaf7f2;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer__row {
+  display: flex;
+}
+.footer__column {
+  text-align: center;
+  flex: 1 0 33.333%;
+  margin-bottom: 100px;
+}
+.footer__column p {
+  font-size: 13.9px;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+}
+.footer__column_1 {
+  text-align: left;
+  padding-left: 200px;
+}
+.footer__column_1 p:first-child {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #848789;
+}
+.footer__column_2 img {
+  padding-left: 10px;
+}
+.footer__column_3 p {
+  display: inline-block;
+  padding-right: 10px;
+}
+.footer__column_3 img {
+  margin-top: -10px;
 }/*# sourceMappingURL=style.css.map */
